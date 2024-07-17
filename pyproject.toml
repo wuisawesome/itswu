@@ -22,3 +22,8 @@ Issues = "https://github.com/wuisawesome/itswu/issues"
 
 [project.scripts]
 alex = "itswu.alex.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["itswu"]
+[tool.setuptools]
+include-package-data = true
