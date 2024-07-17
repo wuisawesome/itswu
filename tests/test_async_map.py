@@ -1,4 +1,4 @@
-from itswu.alex import async_map
+from itswu.alex import async_map  # type: ignore[import-untyped]
 
 import asyncio
 import pytest
